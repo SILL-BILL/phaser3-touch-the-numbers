@@ -10,7 +10,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "0000-btn-0.png",
+					"filename": "0000-btn-0",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"filename": "0001-btn-0-pressed.png",
+					"filename": "0001-btn-0-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"filename": "0002-btn-0-desabled.png",
+					"filename": "0002-btn-0-desabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -73,7 +73,7 @@
 					}
 				},
 				{
-					"filename": "0003-btn-1.png",
+					"filename": "0003-btn-1",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -94,7 +94,7 @@
 					}
 				},
 				{
-					"filename": "0004-btn-1-pressed.png",
+					"filename": "0004-btn-1-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -115,7 +115,7 @@
 					}
 				},
 				{
-					"filename": "0005-btn-1-desabled.png",
+					"filename": "0005-btn-1-desabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -136,7 +136,7 @@
 					}
 				},
 				{
-					"filename": "0006-btn-2.png",
+					"filename": "0006-btn-2",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -157,7 +157,7 @@
 					}
 				},
 				{
-					"filename": "0007-btn-2-pressed.png",
+					"filename": "0007-btn-2-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -178,7 +178,7 @@
 					}
 				},
 				{
-					"filename": "0008-btn-2-desabled.png",
+					"filename": "0008-btn-2-desabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -199,7 +199,7 @@
 					}
 				},
 				{
-					"filename": "0009-btn-3.png",
+					"filename": "0009-btn-3",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -220,7 +220,7 @@
 					}
 				},
 				{
-					"filename": "0010-btn-3-pressed.png",
+					"filename": "0010-btn-3-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"filename": "0011-btn-3-disabled.png",
+					"filename": "0011-btn-3-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -262,7 +262,7 @@
 					}
 				},
 				{
-					"filename": "0012-btn-4.png",
+					"filename": "0012-btn-4",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -283,7 +283,7 @@
 					}
 				},
 				{
-					"filename": "0013-btn-4-pressed.png",
+					"filename": "0013-btn-4-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -304,7 +304,7 @@
 					}
 				},
 				{
-					"filename": "0014-btn-4-disabled.png",
+					"filename": "0014-btn-4-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -325,7 +325,7 @@
 					}
 				},
 				{
-					"filename": "0015-btn-5.png",
+					"filename": "0015-btn-5",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -346,7 +346,7 @@
 					}
 				},
 				{
-					"filename": "0016-btn-5-pressed.png",
+					"filename": "0016-btn-5-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -367,7 +367,7 @@
 					}
 				},
 				{
-					"filename": "0017-btn-5-disabled.png",
+					"filename": "0017-btn-5-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -388,7 +388,7 @@
 					}
 				},
 				{
-					"filename": "0018-btn-6.png",
+					"filename": "0018-btn-6",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -409,7 +409,7 @@
 					}
 				},
 				{
-					"filename": "0019-btn-6-pressed.png",
+					"filename": "0019-btn-6-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -430,7 +430,7 @@
 					}
 				},
 				{
-					"filename": "0020-btn-6-disabled.png",
+					"filename": "0020-btn-6-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -451,7 +451,7 @@
 					}
 				},
 				{
-					"filename": "0021-btn-7.png",
+					"filename": "0021-btn-7",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -472,7 +472,7 @@
 					}
 				},
 				{
-					"filename": "0022-btn-7-pressed.png",
+					"filename": "0022-btn-7-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -493,7 +493,7 @@
 					}
 				},
 				{
-					"filename": "0023-btn-7-disabled.png",
+					"filename": "0023-btn-7-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -514,7 +514,7 @@
 					}
 				},
 				{
-					"filename": "0024-btn-8.png",
+					"filename": "0024-btn-8",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -535,7 +535,7 @@
 					}
 				},
 				{
-					"filename": "0025-btn-8-pressed.png",
+					"filename": "0025-btn-8-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -556,7 +556,7 @@
 					}
 				},
 				{
-					"filename": "0026-btn-8-disabled.png",
+					"filename": "0026-btn-8-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -577,7 +577,7 @@
 					}
 				},
 				{
-					"filename": "0027-btn-9.png",
+					"filename": "0027-btn-9",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -598,7 +598,7 @@
 					}
 				},
 				{
-					"filename": "0028-btn-9-pressed.png",
+					"filename": "0028-btn-9-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -619,7 +619,7 @@
 					}
 				},
 				{
-					"filename": "0029-btn-9-disabled.png",
+					"filename": "0029-btn-9-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -640,7 +640,7 @@
 					}
 				},
 				{
-					"filename": "0030-btn-10.png",
+					"filename": "0030-btn-10",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -661,7 +661,7 @@
 					}
 				},
 				{
-					"filename": "0031-btn-10-pressed.png",
+					"filename": "0031-btn-10-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -682,7 +682,7 @@
 					}
 				},
 				{
-					"filename": "0032-btn-10-disabled.png",
+					"filename": "0032-btn-10-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -703,7 +703,7 @@
 					}
 				},
 				{
-					"filename": "0033-btn-11.png",
+					"filename": "0033-btn-11",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -724,7 +724,7 @@
 					}
 				},
 				{
-					"filename": "0034-btn-11-pressed.png",
+					"filename": "0034-btn-11-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -745,7 +745,7 @@
 					}
 				},
 				{
-					"filename": "0035-btn-11-disabled.png",
+					"filename": "0035-btn-11-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -777,7 +777,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "0036-btn-12.png",
+					"filename": "0036-btn-12",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -798,7 +798,7 @@
 					}
 				},
 				{
-					"filename": "0037-btn-12-pressed.png",
+					"filename": "0037-btn-12-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -819,7 +819,7 @@
 					}
 				},
 				{
-					"filename": "0038-btn-12-diabled.png",
+					"filename": "0038-btn-12-diabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -840,7 +840,7 @@
 					}
 				},
 				{
-					"filename": "0039-btn-13.png",
+					"filename": "0039-btn-13",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -861,7 +861,7 @@
 					}
 				},
 				{
-					"filename": "0040-btn-13-pressed.png",
+					"filename": "0040-btn-13-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -882,7 +882,7 @@
 					}
 				},
 				{
-					"filename": "0041-btn-13-disabled.png",
+					"filename": "0041-btn-13-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -903,7 +903,7 @@
 					}
 				},
 				{
-					"filename": "0042-btn-14.png",
+					"filename": "0042-btn-14",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -924,7 +924,7 @@
 					}
 				},
 				{
-					"filename": "0043-btn-14-pressed.png",
+					"filename": "0043-btn-14-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -945,7 +945,7 @@
 					}
 				},
 				{
-					"filename": "0044-btn-14-disabled.png",
+					"filename": "0044-btn-14-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -966,7 +966,7 @@
 					}
 				},
 				{
-					"filename": "0045-btn-15.png",
+					"filename": "0045-btn-15",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -987,7 +987,7 @@
 					}
 				},
 				{
-					"filename": "0046-btn-15-pressed.png",
+					"filename": "0046-btn-15-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1008,7 +1008,7 @@
 					}
 				},
 				{
-					"filename": "0047-btn-15-disabled.png",
+					"filename": "0047-btn-15-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1029,7 +1029,7 @@
 					}
 				},
 				{
-					"filename": "0048-btn-16.png",
+					"filename": "0048-btn-16",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1050,7 +1050,7 @@
 					}
 				},
 				{
-					"filename": "0049-btn-16-pressed.png",
+					"filename": "0049-btn-16-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1071,7 +1071,7 @@
 					}
 				},
 				{
-					"filename": "0050-btn-16-disabled.png",
+					"filename": "0050-btn-16-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1092,7 +1092,7 @@
 					}
 				},
 				{
-					"filename": "0051-btn-17.png",
+					"filename": "0051-btn-17",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1113,7 +1113,7 @@
 					}
 				},
 				{
-					"filename": "0052-btn-17-pressed.png",
+					"filename": "0052-btn-17-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1134,7 +1134,7 @@
 					}
 				},
 				{
-					"filename": "0053-btn-17-disabled.png",
+					"filename": "0053-btn-17-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1155,7 +1155,7 @@
 					}
 				},
 				{
-					"filename": "0054-btn-18.png",
+					"filename": "0054-btn-18",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1176,7 +1176,7 @@
 					}
 				},
 				{
-					"filename": "0055-btn-18-pressed.png",
+					"filename": "0055-btn-18-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1197,7 +1197,7 @@
 					}
 				},
 				{
-					"filename": "0056-btn-18-disabled.png",
+					"filename": "0056-btn-18-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1218,7 +1218,7 @@
 					}
 				},
 				{
-					"filename": "0057-btn-19.png",
+					"filename": "0057-btn-19",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1239,7 +1239,7 @@
 					}
 				},
 				{
-					"filename": "0058-btn-19-pressed.png",
+					"filename": "0058-btn-19-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1260,7 +1260,7 @@
 					}
 				},
 				{
-					"filename": "0059-btn-19-disabled.png",
+					"filename": "0059-btn-19-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1281,7 +1281,7 @@
 					}
 				},
 				{
-					"filename": "0060-btn-20.png",
+					"filename": "0060-btn-20",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1302,7 +1302,7 @@
 					}
 				},
 				{
-					"filename": "0061-btn-20-pressed.png",
+					"filename": "0061-btn-20-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1323,7 +1323,7 @@
 					}
 				},
 				{
-					"filename": "0062-btn-20-disabled.png",
+					"filename": "0062-btn-20-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1344,7 +1344,7 @@
 					}
 				},
 				{
-					"filename": "0063-btn-21.png",
+					"filename": "0063-btn-21",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1365,7 +1365,7 @@
 					}
 				},
 				{
-					"filename": "0064-btn-21-pressed.png",
+					"filename": "0064-btn-21-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1386,7 +1386,7 @@
 					}
 				},
 				{
-					"filename": "0065-btn-21-disabled.png",
+					"filename": "0065-btn-21-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1407,7 +1407,7 @@
 					}
 				},
 				{
-					"filename": "0066-btn-22.png",
+					"filename": "0066-btn-22",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1428,7 +1428,7 @@
 					}
 				},
 				{
-					"filename": "0067-btn-22-pressed.png",
+					"filename": "0067-btn-22-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1449,7 +1449,7 @@
 					}
 				},
 				{
-					"filename": "0068-btn-22-disabled.png",
+					"filename": "0068-btn-22-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1470,7 +1470,7 @@
 					}
 				},
 				{
-					"filename": "0069-btn-23.png",
+					"filename": "0069-btn-23",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1491,7 +1491,7 @@
 					}
 				},
 				{
-					"filename": "0070-btn-23-pressed.png",
+					"filename": "0070-btn-23-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1512,7 +1512,7 @@
 					}
 				},
 				{
-					"filename": "0071-btn-23-disabled.png",
+					"filename": "0071-btn-23-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1544,7 +1544,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "0072-btn-24.png",
+					"filename": "0072-btn-24",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1565,7 +1565,7 @@
 					}
 				},
 				{
-					"filename": "0073-btn-24-pressed.png",
+					"filename": "0073-btn-24-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1586,7 +1586,7 @@
 					}
 				},
 				{
-					"filename": "0074-btn-24-disabled.png",
+					"filename": "0074-btn-24-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1607,7 +1607,7 @@
 					}
 				},
 				{
-					"filename": "0075-btn-25.png",
+					"filename": "0075-btn-25",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1628,7 +1628,7 @@
 					}
 				},
 				{
-					"filename": "0076-btn-25-pressed.png",
+					"filename": "0076-btn-25-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1649,7 +1649,7 @@
 					}
 				},
 				{
-					"filename": "0077-btn-25-disabled.png",
+					"filename": "0077-btn-25-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1670,7 +1670,7 @@
 					}
 				},
 				{
-					"filename": "0078-btn-26.png",
+					"filename": "0078-btn-26",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1691,7 +1691,7 @@
 					}
 				},
 				{
-					"filename": "0079-btn-26-pressed.png",
+					"filename": "0079-btn-26-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1712,7 +1712,7 @@
 					}
 				},
 				{
-					"filename": "0080-btn-26-disabled.png",
+					"filename": "0080-btn-26-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1733,7 +1733,7 @@
 					}
 				},
 				{
-					"filename": "0081-btn-27.png",
+					"filename": "0081-btn-27",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1754,7 +1754,7 @@
 					}
 				},
 				{
-					"filename": "0082-btn-27-pressed.png",
+					"filename": "0082-btn-27-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1775,7 +1775,7 @@
 					}
 				},
 				{
-					"filename": "0083-btn-27-disabled.png",
+					"filename": "0083-btn-27-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1796,7 +1796,7 @@
 					}
 				},
 				{
-					"filename": "0084-btn-28.png",
+					"filename": "0084-btn-28",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1817,7 +1817,7 @@
 					}
 				},
 				{
-					"filename": "0085-btn-28-pressed.png",
+					"filename": "0085-btn-28-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1838,7 +1838,7 @@
 					}
 				},
 				{
-					"filename": "0086-btn-28-disabled.png",
+					"filename": "0086-btn-28-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1859,7 +1859,7 @@
 					}
 				},
 				{
-					"filename": "0087-btn-29.png",
+					"filename": "0087-btn-29",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1880,7 +1880,7 @@
 					}
 				},
 				{
-					"filename": "0088-btn-29-pressed.png",
+					"filename": "0088-btn-29-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1901,7 +1901,7 @@
 					}
 				},
 				{
-					"filename": "0089-btn-29-disabled.png",
+					"filename": "0089-btn-29-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1922,7 +1922,7 @@
 					}
 				},
 				{
-					"filename": "0090-btn-30.png",
+					"filename": "0090-btn-30",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1943,7 +1943,7 @@
 					}
 				},
 				{
-					"filename": "0091-btn-30-pressed.png",
+					"filename": "0091-btn-30-pressed",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1964,7 +1964,7 @@
 					}
 				},
 				{
-					"filename": "0092-btn-30-disabled.png",
+					"filename": "0092-btn-30-disabled",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1990,6 +1990,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:b31d901430dd517df3754b933919cbcd:c18463078c2699a8e9a6817af84816c6:dad9e850351116b8cdd81ff7754dc9ea$"
+		"smartupdate": "$TexturePacker:SmartUpdate:4f0d9dad8ad841a943e73887f45eb6ae:c18463078c2699a8e9a6817af84816c6:dad9e850351116b8cdd81ff7754dc9ea$"
 	}
 }

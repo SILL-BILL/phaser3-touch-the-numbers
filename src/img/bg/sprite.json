@@ -10,7 +10,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "0000-main",
+					"filename": "main",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"filename": "0001-head",
+					"filename": "head",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
