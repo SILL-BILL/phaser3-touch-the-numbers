@@ -21,7 +21,8 @@ class Config
 		@summary Scene Names
 	*/
 	public static readonly SceneNames = {
-		'Start':'StartScene'
+		'Start':'StartScene',
+		'Main' :'MainScene'
 	}
 	/**
 		@summary コンストラクタ
@@ -122,6 +123,124 @@ class StartScene extends Phaser.Scene
 }
 
 /**
+	@summary Mainシーンクラス
+*/
+class MainScene extends Phaser.Scene
+{
+
+	/**
+		@summary メインクラスを格納するプロパティ
+	*/
+	private m_Main:Main;
+	/**
+		@summary 背景画像を格納するプロパティ
+	*/
+	private m_BgMain:Phaser.GameObjects.Image;
+	/**
+		@summary 背景画像を格納するプロパティ
+	*/
+	private m_BtnNumGroup:Phaser.GameObjects.Group;
+	/**
+		@summary コンストラクタ
+	*/
+	constructor(_main:Main)
+	{
+		super({ key: Config.SceneNames.Main });
+		this.m_Main = _main;
+	}
+	/**
+		@summary プリロード処理
+	*/
+	public preload():void
+	{
+		this.load.atlas('bg', 'src/img/bg/sprite.png', 'src/img/bg/sprite.json');
+		this.load.multiatlas('btn-num', 'src/img/btn-num/sprite.json', 'src/img/btn-num/');
+
+		this.load.audio('decision', [
+			'src/audio/decision/0.ogg',
+			'src/audio/decision/0.mp3'
+		]);
+	}
+	/**
+		@summary 生成処理
+	*/
+	public create():void
+	{
+		this.m_BgMain = this.add.image(Config.CANVAS_WIDTH/2,Config.CANVAS_HEIGHT/2,'bg','main');
+		this.m_BtnNumGroup = this.add.group();
+		this.createBtnNum(3,3);
+	}
+	/**
+		@summary 更新処理
+	*/
+	public update(_time, _delta):void
+	{
+
+	}
+	/**
+		@summary ナンバーボタンを生成する関数
+	*/
+	private createBtnNum(_row:number, _column:number):void
+	{
+		let btn_width:number = 320;
+		let btn_height:number = 320;
+		let btn_offset_x:number = btn_width / 2;
+		let btn_offset_y:number = btn_height / 2;
+		let b = (Config.CANVAS_WIDTH - (btn_width * _column)) / 2;
+
+		let numList = new Array(_row*_column);
+		for(let i:number = 0; i < numList.length; i++)
+		{
+			numList[i] = i+1;
+		}
+		for(let i:number = numList.length - 1; i > 0; i--)
+		{
+			let r = Math.floor(Math.random() * (i + 1));
+			let tmp = numList[i];
+			numList[i] = numList[r];
+			numList[r] = tmp;
+		}
+
+		//ボタンの生成と配置
+		let index = 0;
+		for(let i:number = 0; i < _row; i++)
+		{
+			for(let j:number = 0; j < _column; j++)
+			{
+				let btn:Phaser.GameObjects.Image = new Phaser.GameObjects.Image(
+													this,
+													btn_width * j + btn_offset_x + b,
+													btn_height * i + btn_offset_y + 320,
+													'btn-num', 'btn-'+numList[index]
+												);
+				btn.setInteractive();
+				btn.setData('num',numList[index]);
+				btn.on('pointerdown', () =>
+				{
+					this.sound.play('decision');
+					btn.setTexture('btn-num','btn-'+btn.getData('num')+'-pressed');
+					console.log(btn.getData('num'));
+				}, this);
+				btn.on('pointerup', () =>
+				{
+					btn.setTexture('btn-num','btn-'+btn.getData('num'));
+				}, this);
+
+				this.m_BtnNumGroup.add(btn,true);
+				index++;
+			}
+		}
+	}
+}
+
+// class ClassName extends Phaser.GameObjects.Image {
+	
+// 	constructor(_scene,_x,_y) {
+// 		super();
+// 	}
+// }
+
+/**
 	@summary メインクラス
 */
 class Main
@@ -143,7 +262,7 @@ class Main
 				width: Config.CANVAS_WIDTH,
 				height: Config.CANVAS_HEIGHT,
 			},
-			scene: [new StartScene(this)]
+			scene: [new MainScene(this)]
 		};
 		this.m_PhaserGame = new Phaser.Game(this.m_PhaserGameConfig);
 	}
