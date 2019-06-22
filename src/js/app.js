@@ -37,7 +37,8 @@ var Config = /** @class */ (function () {
         @summary Scene Names
     */
     Config.SceneNames = {
-        'Start': 'StartScene'
+        'Start': 'StartScene',
+        'Main': 'MainScene'
     };
     return Config;
 }());
@@ -93,6 +94,94 @@ var StartScene = /** @class */ (function (_super) {
     return StartScene;
 }(Phaser.Scene));
 /**
+    @summary Mainシーンクラス
+*/
+var MainScene = /** @class */ (function (_super) {
+    __extends(MainScene, _super);
+    /**
+        @summary コンストラクタ
+    */
+    function MainScene(_main) {
+        var _this = _super.call(this, { key: Config.SceneNames.Main }) || this;
+        _this.m_Main = _main;
+        return _this;
+    }
+    /**
+        @summary プリロード処理
+    */
+    MainScene.prototype.preload = function () {
+        this.load.atlas('bg', 'src/img/bg/sprite.png', 'src/img/bg/sprite.json');
+        this.load.multiatlas('btn-num', 'src/img/btn-num/sprite.json', 'src/img/btn-num/');
+        this.load.audio('decision', [
+            'src/audio/decision/0.ogg',
+            'src/audio/decision/0.mp3'
+        ]);
+    };
+    /**
+        @summary 生成処理
+    */
+    MainScene.prototype.create = function () {
+        this.m_BgMain = this.add.image(Config.CANVAS_WIDTH / 2, Config.CANVAS_HEIGHT / 2, 'bg', 'main');
+        this.m_BtnNumGroup = this.add.group();
+        this.createBtnNum(3, 3);
+    };
+    /**
+        @summary 更新処理
+    */
+    MainScene.prototype.update = function (_time, _delta) {
+    };
+    /**
+        @summary ナンバーボタンを生成する関数
+    */
+    MainScene.prototype.createBtnNum = function (_row, _column) {
+        var _this = this;
+        var btn_width = 320;
+        var btn_height = 320;
+        var btn_offset_x = btn_width / 2;
+        var btn_offset_y = btn_height / 2;
+        var b = (Config.CANVAS_WIDTH - (btn_width * _column)) / 2;
+        var numList = new Array(_row * _column);
+        for (var i = 0; i < numList.length; i++) {
+            numList[i] = i + 1;
+        }
+        for (var i = numList.length - 1; i > 0; i--) {
+            var r = Math.floor(Math.random() * (i + 1));
+            var tmp = numList[i];
+            numList[i] = numList[r];
+            numList[r] = tmp;
+        }
+        //ボタンの生成と配置
+        var index = 0;
+        for (var i = 0; i < _row; i++) {
+            var _loop_1 = function (j) {
+                var btn = new Phaser.GameObjects.Image(this_1, btn_width * j + btn_offset_x + b, btn_height * i + btn_offset_y + 320, 'btn-num', 'btn-' + numList[index]);
+                btn.setInteractive();
+                btn.setData('num', numList[index]);
+                btn.on('pointerdown', function () {
+                    _this.sound.play('decision');
+                    btn.setTexture('btn-num', 'btn-' + btn.getData('num') + '-pressed');
+                    console.log(btn.getData('num'));
+                }, this_1);
+                btn.on('pointerup', function () {
+                    btn.setTexture('btn-num', 'btn-' + btn.getData('num'));
+                }, this_1);
+                this_1.m_BtnNumGroup.add(btn, true);
+                index++;
+            };
+            var this_1 = this;
+            for (var j = 0; j < _column; j++) {
+                _loop_1(j);
+            }
+        }
+    };
+    return MainScene;
+}(Phaser.Scene));
+// class ClassName extends Phaser.GameObjects.Image {
+// 	constructor(_scene,_x,_y) {
+// 		super();
+// 	}
+// }
+/**
     @summary メインクラス
 */
 var Main = /** @class */ (function () {
@@ -108,7 +197,7 @@ var Main = /** @class */ (function () {
                 width: Config.CANVAS_WIDTH,
                 height: Config.CANVAS_HEIGHT
             },
-            scene: [new StartScene(this)]
+            scene: [new MainScene(this)]
         };
         this.m_PhaserGame = new Phaser.Game(this.m_PhaserGameConfig);
     }
